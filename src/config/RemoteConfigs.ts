@@ -5,6 +5,10 @@ type RemoteConfig = {
 
 export const RemoteConfigs: RemoteConfig[] = [
     {
+        key: "DNS防泄漏",
+        value: "https://raw.githubusercontent.com/CitizenScyu/clash-rules/refs/heads/master/DNS.ini"
+    },
+    {
         key: "ACL_默认版",
         value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
     },
