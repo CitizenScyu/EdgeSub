@@ -33,7 +33,7 @@ import { Endpoints } from "@config/AvalibleOptoutFormat.js"
         slug="RemoteConfig"
         desc="远程配置"
         type="k-dropdown"
-        DropdownDefault={{ key: "DNS防泄漏", value: "__DEFAULT__" }}
+        DropdownDefault={{ key: "DNS防泄漏", value: "https://raw.githubusercontent.com/CitizenScyu/clash-rules/refs/heads/master/DNS.ini" }}
         DropdownItems={RemoteConfigs as DropdownItemPrototype[]}
     />
     <KForm
